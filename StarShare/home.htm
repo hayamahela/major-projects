@@ -1,0 +1,61 @@
+<!-- home page user will be directed after login or reg -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+
+	<link rel="icon" type="image/png" href="images/icons/logo"/><!--Title logo-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<nav>
+	<div class="navlogo">
+		<img src="css/images/logo.png" alt="logo" height="36">
+	</div>
+	<div class="navigation">
+        <ul class="menu">
+			<li>
+				<div class="dropdown">
+				<button class="dropbtn"><a href="#"><i class="fa fa-plus-square-o fa-2x" title="Create"></i></a></button>
+				<div class="dropdown-content">
+				<a href=""><i class="fa fa-comment-o fa-s" onclick=""></i> Creat post</a><br>
+				<a href=""><i class="fa fa-users fa-s" onclick=""></i> Creat room</a><br>
+ 				</div>
+				</div>
+ 			</li>
+			<li>
+				<a href="#"><i class="fa fa-group fa-2x" title="Rooms" onclick=""></i></a>
+			</li>
+			<li>
+				<a href="#" ><i class="fa fa-user-circle fa-2x" title="Profile" onclick=""></i></a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-sign-out fa-2x" title="Logout" onclick=""></i></a>
+			</li>
+        </ul>
+    </div>
+</nav>
+ </head>
+<body class="bg">
+ 		<div class="row"> <!-- 4 post in each row -->
+
+<!--This crad represnt the post it wil be in post.php file and called every post-->
+				<form action="" method="post">
+				<div class="column">
+				<div class="card">
+				<img src=$postimage alt="Image" class="cardhome-image">
+				<h2>$productname</h2>
+				<p>$postcontent</p>
+				<a class="username" onclick="" >$username</a>
+				<a class="share" onclick="" ><i class="fa fa-share fa-lg"></i> Share</a>
+				</div>
+				</div>
+				</form>	
+
+
+</div>	
+ 	<script  type="text/javascript" src="main.js"></script>
+</body>
+</html>

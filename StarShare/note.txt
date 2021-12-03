@@ -1,0 +1,7 @@
+Note 
+
+- do not mind the colors it is just for visualization ^_^
+
+- we should deside the logo and final design
+
+-js file is called in the bottom of each page + we should add all the function in one external file

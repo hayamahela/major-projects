@@ -5,3 +5,5 @@ Note
 - we should deside the logo and final design
 
 -js file is called in the bottom of each page + we should add all the function in one external file
+
+- I remover Search bar cause I think we do not have time to add seaching algorithms,  what do u think?

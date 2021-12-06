@@ -1,3 +1,13 @@
+
+ 
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = "http://code.jquery.com/jquery-3.5.1.min.js";
+
+ 
+
+ 
+
 // set up the event handlers
 var buttons = document.querySelectorAll("button.dropbtn");
 for (var i=0; i < buttons.length; i++) {
@@ -63,3 +73,11 @@ if (username==null || username==""){
   return false;  
   }
 }  
+ 
+ 
+     $(function() {
+    $( "#like" ).click(function() {
+      $( "#like,#likemess").toggleClass( "press", 1000 );
+    });
+  });
+    

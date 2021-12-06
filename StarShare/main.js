@@ -74,7 +74,6 @@ if (username==null || username==""){
   }
 }  
  
- 
      $(function() {
     $( "#like" ).click(function() {
       $( "#like,#likemess").toggleClass( "press", 1000 );
